@@ -2,6 +2,7 @@
   "name": "wks-typescript",
   "version": "1.0.0",
   "description": "",
+  "main": "./demos/index.js",
   "scripts": {
     "ejercicio-uno": "nodemon  \"./homeworks/ejercicio 1.ts\"",
     "ejercicio-dos": "nodemon  \"./homeworks/ejercicio 2/ejercicio 2.ts\"",
@@ -12,13 +13,14 @@
     "ejercicio-siete": "nodemon  \"./homeworks/ejercicio 7.ts\"",
     "ejercicio-ocho": "nodemon  \"./homeworks/ejercicio 8.ts\"",
     "ejercicio-nueve": "nodemon  \"./homeworks/ejercicio 9.ts\"",
-    "ejercicio-diez": "nodemon  \"./homeworks/ejercicio 10.ts\""
+    "ejercicio-diez": "nodemon  \"./homeworks/ejercicio 10.ts\"",
+    "dev": "nodemon index.ts"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "nodemon": "^2.0.14",
     "ts-node": "^10.3.0",
-    "typescript": "^4.4.4"
+    "typescript": "^4.9.5"
   }
 }
